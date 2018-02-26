@@ -1,0 +1,65 @@
+.center {
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+  background: url(bean.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+}
+.home, .about-me, .projects {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* left: 20%;
+  right:20%; */
+}
+.welcome {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  /* padding: 50px 80px; */
+  /* background: white; */
+  text-align: center;
+}
+h1 {
+  color: rgba(252, 252, 252, 0.85);
+  letter-spacing: 5px;
+  font-size: 5em;
+  text-transform: uppercase;
+  text-shadow:
+    0.75px 0.75px 0.75px #000,
+    -0.75px -0.75px 0.75px #000,
+    -0.75px 0.75px 0.75px #000,
+    0.75px -0.75px 0.75px #000,
+    2px 5px 5px rgba(0,0,0,0.5);
+}
+
+.home {
+  min-height: 100%;
+}
+.about-me {
+  min-height: 400px;
+}
+.projects {
+  min-height: 400px;
+}
+.text {
+  background: white;
+  position: absolute;
+  padding: 50px 80px;
+  top: 25%;
+  width: 100%;
+}
+.thumb {
+  width: 400px;
+  height: 400px;
+}
